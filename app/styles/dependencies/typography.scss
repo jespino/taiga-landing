@@ -1,0 +1,46 @@
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #181818;
+    font-weight: normal;
+    a {
+        font-weight: inherit;
+    }
+}
+
+/*__Font Sizes__*/
+.small {font-size: 9px;}
+.medium {font-size: 14px;}
+.large {font-size: 18px;}
+.xlarge {font-size: 24px;}
+
+h1 { line-height: 50px; margin-bottom: 14px;}
+h2 { line-height: 40px; margin-bottom: 10px; }
+h3 { line-height: 34px; margin-bottom: 8px; }
+h4 { line-height: 30px; margin-bottom: 4px; }
+h5 { line-height: 24px; }
+h6 { line-height: 21px; }
+
+p { margin: 0 0 20px 0;
+    img {
+        margin: 0;
+    }
+}
+
+em { font-style: italic; }
+strong { font-weight: bold; color: #333; }
+
+hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 10px 0 30px;
+    height: 0;
+}
+
+/* __Links__ */
+
+a, a:visited {
+    color: #333;
+    text-decoration: none;
+}

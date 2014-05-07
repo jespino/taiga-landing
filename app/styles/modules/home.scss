@@ -1,0 +1,78 @@
+/* Home Styles */
+
+.section-header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('/images/section-header.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 11% 0;
+    text-align: center;
+    color: #fff;
+    .logo {
+        margin-bottom: 0;
+    }
+    img {
+        width: 100%;
+        max-width: 460px;
+    }
+    p {
+        font-size: 4em;
+        color: $black;
+        opacity: .5;
+        padding: 0;
+        line-height: 1.1em;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    .email-text {
+        @extend .large;
+        margin: 6em auto 0;
+        color: $white;
+        display: block;
+    }
+    .email-link, .email-link:visited {
+        @extend .xlarge;
+        margin: .5em auto 0;
+        color: $white;
+        display: block;
+        padding: 1em 3em;
+        border: 1px solid $white;
+        background: white; //Fallback
+        background: rgba(255,255,255,0.15);
+        box-shadow: inset 0 0 0 1px #fff;
+        &:hover {
+            background: white; //Fallback
+            background: rgba(255,255,255,0.4);
+            transition: background .3s linear;
+        }
+    }
+    form {
+        width: 320px;
+        margin: 6em auto 0;
+    }
+    label {
+        @extend .xlarge;
+        font-weight: 300;
+        margin-bottom: 1em;
+    }
+    input {
+        padding: 20px;
+        @extend .large; //Typography
+        font-weight: 300;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+$break-small: 460px;
+
+/* Responsive */
+@media screen and (max-width: $break-small) {
+    .section-header {
+        p {
+            font-size: 1.5em;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "box-model": false,
+    "compatible-vendor-prefixes": true,
+    "empty-rules": true,
+    "duplicate-properties": true,
+    "ids": true,
+    "known-properties": true,
+    "overqualified-elements": true,
+    "shorthand": true,
+    "text-indent": true,
+    "unique-headings": false,
+    "vendor-prefix": true,
+    "zero-units": true,
+    "universal-selector": false,
+    "box-sizing": false
+}

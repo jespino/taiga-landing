@@ -1,0 +1,22 @@
+/*
+THIS IS THE MAIN INCLUDES SASS FILE
+*/
+
+//Dependencies
+@import 'dependencies/helpers';
+@import 'dependencies/typography';
+@import 'dependencies/colors';
+@import 'dependencies/elements';
+
+//Components
+@import 'components/forms';
+
+//Layout
+@import 'layout/base';
+
+//Components
+@import 'modules/home';
+
+// Responsive
+@import 'responsive/mobile';
+@import 'responsive/screen';
